@@ -1,0 +1,95 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-03-24T23:31:23.436Z",
+    "end": "2019-03-24T23:31:23.911Z",
+    "duration": 475,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "8a42b90c-1018-4682-b2c6-8248824daf19",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "793f9416-d7e4-486e-817c-ac46b6e43e8d",
+        "title": "My First Test",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "Find h1",
+            "fullTitle": "My First Test Find h1",
+            "duration": 319,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "cy.get('h1.hello').contains('Hello World!');",
+            "err": {},
+            "isRoot": false,
+            "uuid": "a16baa7f-8ec0-49c1-99e3-670fcc22ad70",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Find p",
+            "fullTitle": "My First Test Find p",
+            "duration": 84,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "cy.get('p').contains('ola');",
+            "err": {},
+            "isRoot": false,
+            "uuid": "0a9cde2a-62d7-4e87-9d4e-453b46b254a0",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "a16baa7f-8ec0-49c1-99e3-670fcc22ad70",
+          "0a9cde2a-62d7-4e87-9d4e-453b46b254a0"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 403,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2019
+}
